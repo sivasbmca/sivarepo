@@ -18,35 +18,6 @@
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": [
-			{
-				"name": "time_ref",
-				"type": "String"
-			},
-			{
-				"name": "account",
-				"type": "String"
-			},
-			{
-				"name": "code",
-				"type": "String"
-			},
-			{
-				"name": "country_code",
-				"type": "String"
-			},
-			{
-				"name": "product_type",
-				"type": "String"
-			},
-			{
-				"name": "value",
-				"type": "String"
-			},
-			{
-				"name": "status",
-				"type": "String"
-			}
-		]
+		"schema": []
 	}
 }
