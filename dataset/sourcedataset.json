@@ -19,19 +19,11 @@
 		},
 		"schema": [
 			{
-				"name": "NZHSC_Level_2_Code_HS4",
+				"name": "code",
 				"type": "String"
 			},
 			{
-				"name": "NZHSC_Level_1_Code_HS2",
-				"type": "String"
-			},
-			{
-				"name": "NZHSC_Level_2",
-				"type": "String"
-			},
-			{
-				"name": "NZHSC_Level_1",
+				"name": "service_label",
 				"type": "String"
 			}
 		]
