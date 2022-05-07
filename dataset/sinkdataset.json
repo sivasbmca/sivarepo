@@ -7,9 +7,27 @@
 		},
 		"annotations": [],
 		"type": "AzureSqlTable",
-		"schema": [],
+		"schema": [
+			{
+				"name": "NZHSC_Level_2_Code_HS4",
+				"type": "nvarchar"
+			},
+			{
+				"name": "NZHSC_Level_1_Code_HS2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "NZHSC_Level_2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "NZHSC_Level_1",
+				"type": "nvarchar"
+			}
+		],
 		"typeProperties": {
-			"schema": "dbo"
+			"schema": "dbo",
+			"table": "table4"
 		}
 	}
 }

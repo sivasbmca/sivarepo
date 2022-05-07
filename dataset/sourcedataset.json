@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "siva(4).csv",
 				"container": "container"
 			},
 			"columnDelimiter": ",",
@@ -17,6 +18,23 @@
 			"firstRowAsHeader": true,
 			"quoteChar": "\""
 		},
-		"schema": []
+		"schema": [
+			{
+				"name": "NZHSC_Level_2_Code_HS4",
+				"type": "String"
+			},
+			{
+				"name": "NZHSC_Level_1_Code_HS2",
+				"type": "String"
+			},
+			{
+				"name": "NZHSC_Level_2",
+				"type": "String"
+			},
+			{
+				"name": "NZHSC_Level_1",
+				"type": "String"
+			}
+		]
 	}
 }

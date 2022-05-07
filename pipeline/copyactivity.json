@@ -78,12 +78,61 @@
 									"type": "AzureSqlSink",
 									"writeBehavior": "insert",
 									"sqlWriterUseTableLock": false,
-									"tableOption": "autoCreate",
 									"disableMetricsCollection": false
 								},
 								"enableStaging": false,
 								"translator": {
 									"type": "TabularTranslator",
+									"mappings": [
+										{
+											"source": {
+												"name": "NZHSC_Level_2_Code_HS4",
+												"type": "String",
+												"physicalType": "String"
+											},
+											"sink": {
+												"name": "NZHSC_Level_2_Code_HS4",
+												"type": "String",
+												"physicalType": "nvarchar"
+											}
+										},
+										{
+											"source": {
+												"name": "NZHSC_Level_1_Code_HS2",
+												"type": "String",
+												"physicalType": "String"
+											},
+											"sink": {
+												"name": "NZHSC_Level_1_Code_HS2",
+												"type": "String",
+												"physicalType": "nvarchar"
+											}
+										},
+										{
+											"source": {
+												"name": "NZHSC_Level_2",
+												"type": "String",
+												"physicalType": "String"
+											},
+											"sink": {
+												"name": "NZHSC_Level_2",
+												"type": "String",
+												"physicalType": "nvarchar"
+											}
+										},
+										{
+											"source": {
+												"name": "NZHSC_Level_1",
+												"type": "String",
+												"physicalType": "String"
+											},
+											"sink": {
+												"name": "NZHSC_Level_1",
+												"type": "String",
+												"physicalType": "nvarchar"
+											}
+										}
+									],
 									"typeConversion": true,
 									"typeConversionSettings": {
 										"allowDataTruncation": true,
@@ -100,13 +149,7 @@
 							"outputs": [
 								{
 									"referenceName": "sinkdataset",
-									"type": "DatasetReference",
-									"parameters": {
-										"tabname": {
-											"value": "@item().s3",
-											"type": "Expression"
-										}
-									}
+									"type": "DatasetReference"
 								}
 							]
 						}
