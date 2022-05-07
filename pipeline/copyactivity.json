@@ -78,6 +78,7 @@
 									"type": "AzureSqlSink",
 									"writeBehavior": "insert",
 									"sqlWriterUseTableLock": false,
+									"tableOption": "autoCreate",
 									"disableMetricsCollection": false
 								},
 								"enableStaging": false,
@@ -91,8 +92,7 @@
 												"physicalType": "String"
 											},
 											"sink": {
-												"name": "1",
-												"physicalType": "nvarchar"
+												"name": "aaaa"
 											}
 										},
 										{
@@ -102,8 +102,7 @@
 												"physicalType": "String"
 											},
 											"sink": {
-												"name": "2",
-												"physicalType": "nvarchar"
+												"name": "bbbb"
 											}
 										},
 										{
@@ -113,8 +112,7 @@
 												"physicalType": "String"
 											},
 											"sink": {
-												"name": "3",
-												"physicalType": "nvarchar"
+												"name": "cccc"
 											}
 										},
 										{
@@ -124,8 +122,7 @@
 												"physicalType": "String"
 											},
 											"sink": {
-												"name": "4",
-												"physicalType": "nvarchar"
+												"name": "dddd"
 											}
 										}
 									],
