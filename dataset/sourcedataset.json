@@ -10,7 +10,6 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "siva(4).csv",
 				"container": "container"
 			},
 			"columnDelimiter": ",",
