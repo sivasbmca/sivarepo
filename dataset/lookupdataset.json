@@ -1,0 +1,16 @@
+{
+	"name": "lookupdataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqllinkedservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "control_tab"
+		}
+	}
+}
