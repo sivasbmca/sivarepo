@@ -91,8 +91,7 @@
 												"physicalType": "String"
 											},
 											"sink": {
-												"name": "NZHSC_Level_2_Code_HS4",
-												"type": "String",
+												"name": "1",
 												"physicalType": "nvarchar"
 											}
 										},
@@ -103,8 +102,7 @@
 												"physicalType": "String"
 											},
 											"sink": {
-												"name": "NZHSC_Level_1_Code_HS2",
-												"type": "String",
+												"name": "2",
 												"physicalType": "nvarchar"
 											}
 										},
@@ -115,8 +113,7 @@
 												"physicalType": "String"
 											},
 											"sink": {
-												"name": "NZHSC_Level_2",
-												"type": "String",
+												"name": "3",
 												"physicalType": "nvarchar"
 											}
 										},
@@ -127,8 +124,7 @@
 												"physicalType": "String"
 											},
 											"sink": {
-												"name": "NZHSC_Level_1",
-												"type": "String",
+												"name": "4",
 												"physicalType": "nvarchar"
 											}
 										}
