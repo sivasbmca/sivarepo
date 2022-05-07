@@ -27,7 +27,7 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "table4"
+			"table": "autotab"
 		}
 	}
 }
